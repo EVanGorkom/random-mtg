@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/random-mtg/static/css/main.05da3ff0.css",
+    "main.js": "/random-mtg/static/js/main.8cd1cfbe.js",
+    "static/js/453.1a59376c.chunk.js": "/random-mtg/static/js/453.1a59376c.chunk.js",
+    "index.html": "/random-mtg/index.html",
+    "main.05da3ff0.css.map": "/random-mtg/static/css/main.05da3ff0.css.map",
+    "main.8cd1cfbe.js.map": "/random-mtg/static/js/main.8cd1cfbe.js.map",
+    "453.1a59376c.chunk.js.map": "/random-mtg/static/js/453.1a59376c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05da3ff0.css",
+    "static/js/main.8cd1cfbe.js"
+  ]
+}
