@@ -1,14 +1,18 @@
 import './App.css';
-import Cards from './components/Cards'
+import Cards from './components/Cards';
+import Commander from './components/Commander';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <div className="title">Welcome to the Random MTG card generator!</div>
-      <div className="subtitle">Click the button to get a random card!</div>
-        <Cards />
+        <div className="title">Welcome to the Random MTG Card Generator!</div>
+        <div className="subtitle">Click any of the buttons below to generate a random magic card or commander.</div>
       </header>
+      <div className="cards-container">
+        <Commander />
+        <Cards />
+      </div>
     </div>
   );
 }
