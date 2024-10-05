@@ -17,6 +17,7 @@ function Cards() {
         try {
             const response = await fetch(uri);
             const data = await response.json();
+            console.log(data)
             if (data.data && data.data.length) {
                 // first conditional handles the search endpoint with the color filter. Now we need to randomize and select the card.
                 const randomIndex = Math.floor(Math.random() * data.data.length);
